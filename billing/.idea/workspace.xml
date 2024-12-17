@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="903c985d-8bde-4b72-ab0b-39acca1e95ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/clinic/billing/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="903c985d-8bde-4b72-ab0b-39acca1e95ea" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +21,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="analysis green line" />
+        <option name="rewordedMessage" value="analysis green line" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="c5b86433ea0664a8cff8108cac8b0bdf1037ffa9" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -39,7 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.BillingControllerTest.executor": "Debug",
+    "JUnit.BillingControllerTest.executor": "Run",
     "JUnit.BillingControllerTest.getAppointments.executor": "Run",
     "JUnit.BillingControllerTest.testGenerateInvoicePatientNotFoundInController.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -126,5 +132,25 @@
       <updated>1734433695356</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="billing green line" />
+    <MESSAGE value="billing green line" />
+    <MESSAGE value="analysis green line" />
+    <MESSAGE value="analysis green line" />
+    <MESSAGE value="appointments green line" />
+    <MESSAGE value="appointments green line" />
+    <option name="LAST_COMMIT_MESSAGE" value="appointments green line" />
   </component>
 </project>
