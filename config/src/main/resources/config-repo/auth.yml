@@ -3,10 +3,10 @@ spring:
     name: auth-service
     page: ${SPRING_PAGE:5}
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://postgres-db:5432/clinic_db}
-    username: ${SPRING_DATASOURCE_USERNAME:clinic}
-    password: ${SPRING_DATASOURCE_PASSWORD:clinic}
     driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5433}/${DB_NAME:postgres}
+    password: ${DB_PASSWORD:1234}
+    username: ${DB_USER:postgres}
   jackson:
     property-naming-strategy: SNAKE_CASE
 
