@@ -3,6 +3,10 @@ server:
   servlet:
     context-path: /
 spring:
+  cloud:
+    config:
+      import-check:
+        enabled: false
   application:
     name: clinic
     page-size: '5'
