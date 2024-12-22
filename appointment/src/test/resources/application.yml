@@ -4,11 +4,13 @@ server:
     context-path: /
 spring:
   cloud:
+    eureka:
+      enabled: false
     config:
       import-check:
         enabled: false
   application:
-    name: clinic
+    name: appointment
     page-size: '5'
   datasource:
     driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
