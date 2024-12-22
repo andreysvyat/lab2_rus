@@ -132,7 +132,7 @@ public class AppointmentService {
                     .toList();
         }
         if (filter.patients() != null && !filter.patients().isEmpty()) {
-            return appointmentRepository.findByPatient()
+            return appointmentRepository.findByPatients(filter.patients())
                     .stream()
                     .map(appointmentMapper::entityToAppointmentDto)
                     .toList();
