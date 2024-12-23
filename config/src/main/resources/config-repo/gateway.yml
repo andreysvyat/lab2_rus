@@ -20,7 +20,7 @@ spring:
         - id: appointment
           uri: lb://appointment
           predicates:
-            - Path=/api/appointments/**
+            - Path=/api/appointments/**, /api/appointments-type/**
           filters:
             - name: CircuitBreaker
               args:

@@ -4,6 +4,7 @@ import com.example.clinic.billing.dto.AppointmentDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -12,5 +13,5 @@ import java.util.List;
 public interface AppointmentFeignClient {
 
     @GetMapping("/filter")
-    List<AppointmentDto> findByPatients(List<Long> patients);
+    List<AppointmentDto> findByPatients(@RequestParam List<Long> patients);
 }
