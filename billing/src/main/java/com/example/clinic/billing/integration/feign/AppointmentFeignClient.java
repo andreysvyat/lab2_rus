@@ -12,5 +12,5 @@ import java.util.List;
 public interface AppointmentFeignClient {
 
     @GetMapping("/filter")
-    List<AppointmentDto> findByPatients(List<Long> patientIds);
+    List<AppointmentDto> findByPatients(List<Long> patients);
 }
