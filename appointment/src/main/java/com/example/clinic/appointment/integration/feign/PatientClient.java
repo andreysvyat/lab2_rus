@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.Optional;
 
-import static java.util.Optional.of;
-
 @Service
 @FeignClient(name = "patient-client", url = "${patient.service.url}")
 public interface PatientClient extends PatientService {

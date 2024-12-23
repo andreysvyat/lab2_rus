@@ -149,4 +149,15 @@ class AppointmentControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.length()").value(2));
     }
+
+    @Test
+    void filterByPatients() throws Exception {
+        mockMvc.perform(
+                        get("/api/appointments/filter")
+                                .param("patients", String.valueOf(2L))
+                                .param("patients", String.valueOf(3L))
+                )
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.length()").value(3));
+    }
 }
