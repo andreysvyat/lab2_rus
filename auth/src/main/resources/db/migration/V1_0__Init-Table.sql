@@ -21,4 +21,4 @@ CREATE TABLE IF NOT EXISTS user_ (
 
 
 INSERT INTO user_ (email, login, password, role_id)
-VALUES ('admin@test.ru', 'admin', '$2a$12$sEro9rIaSELb2Btm4zflO.SaAB5Q.DcNI.2cXi0PwmNGwktR08sCy', 1);
+VALUES ('admin@test.ru', 'admin', '$2a$12$sEro9rIaSELb2Btm4zflO.SaAB5Q.DcNI.2cXi0PwmNGwktR08sCy', 2);
