@@ -8,7 +8,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import com.example.clinic.auth.entity.Role;
 import com.example.clinic.auth.entity.User;
 
 @AllArgsConstructor
@@ -32,7 +31,7 @@ public class UserDTO {
     private String pass;
 
     @NotBlank(message = "Role cannot be blank")
-    @Pattern(regexp = "^(ADMIN|USER)$", message = "Role must be either admin or user")
+    @Pattern(regexp = "^(ADMIN|USER|SUPERVISOR)$", message = "Role must be either admin or user")
     private String role;
 
     public User toUser() {
