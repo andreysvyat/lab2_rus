@@ -1,5 +1,6 @@
 package com.example.clinic.auth.dto;
 
+import com.example.clinic.auth.entity.User;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
@@ -8,7 +9,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import com.example.clinic.auth.entity.User;
 
 @AllArgsConstructor
 @NoArgsConstructor

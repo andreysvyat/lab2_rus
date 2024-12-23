@@ -5,14 +5,13 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import java.util.Random;
 import java.util.stream.Collector;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PasswordEncoderTest {
     @Test
-    void bCriptEncoder(){
+    void bCriptEncoder() {
         var cripto = new BCryptPasswordEncoder(12);
         var random = new Random();
         String testpass = Stream
