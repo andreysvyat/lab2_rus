@@ -142,7 +142,7 @@ public class DoctorControllerTest {
         Long doctorId = 1L; // Replace with actual ID
         ScriptUtils.runInitScript(new JdbcDatabaseDelegate(postgres, ""), "sql/test.sql");
 
-        var resp = given()
+        given()
                 .header(new Header("Authorization", "Bearer " + token))
                 .get("/api/doctors/{id}", doctorId)
                 .then()
